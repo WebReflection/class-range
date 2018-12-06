@@ -1,0 +1,27 @@
+{
+  "name": "class-range",
+  "version": "0.0.0",
+  "description": "An iterable Range class",
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
+  "unpkg": "min.js",
+  "scripts": {
+    "build": "npm run min && npm run test && npm run size",
+    "min": "uglifyjs index.js --support-ie8 --comments=/^!/ -c -m -o min.js",
+    "size": "cat index.js | wc -c && cat min.js | wc -c && gzip -c9 min.js | wc -c && cat min.js | brotli | wc -c",
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "test": "istanbul cover test/index.js"
+  },
+  "keywords": [
+    "range",
+    "class",
+    "iterable",
+    "generator"
+  ],
+  "author": "Andrea Giammarchi",
+  "license": "ISC",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "uglify-es": "^3.3.9"
+  }
+}
