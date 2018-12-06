@@ -1,2 +1,2 @@
 /*! (c) Andrea Giammarchi - ISC */
-function Range(t,s,e){"use strict";switch(arguments.length){case 3:this.step=e;case 2:this.end=s;case 1:this.start=t}}!function(t){t.start=0,t.end=1/0,t.step=1,t[Symbol.iterator]=function*(){for(var t=this.start;t<this.end;t+=this.step)yield t},t.for=function*(t){for(let s=this.start;s<this.end;s+=this.step)yield*t[s]}}(Range.prototype);
+function Range(t,s,e){"use strict";switch(arguments.length){case 3:this.step=e;case 2:this.end=s;case 1:this.start=t}}!function(t){t.start=0,t.end=1/0,t.step=1,t[Symbol.iterator]=function*(){for(var t=this.start;t<this.end;t+=this.step)yield t},t.for=function*(t){for(var s=this.start;s<this.end;s+=this.step)yield*t[s]}}(Range.prototype);

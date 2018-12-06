@@ -23,5 +23,13 @@
   "devDependencies": {
     "istanbul": "^0.4.5",
     "uglify-es": "^3.3.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebReflection/class-range.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WebReflection/class-range/issues"
+  },
+  "homepage": "https://github.com/WebReflection/class-range#readme"
 }

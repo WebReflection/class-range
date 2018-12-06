@@ -22,7 +22,7 @@ function Range(start, end, step) {'use strict';
 
   // for (const value of new Range(1, 4).for('abcde')) ...
   proto.for = function* (iterable) {
-    for (let i = this.start; i < this.end; i += this.step)
+    for (var i = this.start; i < this.end; i += this.step)
       yield* iterable[i];
   };
 
