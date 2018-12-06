@@ -1,6 +1,6 @@
 # class Range
 
-[![Build Status](https://travis-ci.com/ungap/class-range.svg?branch=master)](https://travis-ci.com/ungap/class-range) [![Coverage Status](https://coveralls.io/repos/github/ungap/class-range/badge.svg?branch=master)](https://coveralls.io/github/ungap/class-range?branch=master) ![WebReflection status](https://offline.report/status/webreflection.svg)
+[![Build Status](https://travis-ci.com/class-range.svg?branch=master)](https://travis-ci.com/class-range) [![Coverage Status](https://coveralls.io/repos/github/class-range/badge.svg?branch=master)](https://coveralls.io/github/class-range?branch=master) ![WebReflection status](https://offline.report/status/webreflection.svg)
 
 An iterable Range class.
 
