@@ -7,7 +7,7 @@ An iterable Range class.
 The usage is as simple as `new Range(start = 0, end = Infinity, step = 1)`, with a `.for(iterable)` method.
 
 ```js
-import Range from 'gerangetor';
+import Range from 'class-range';
 
 for (const i of new Range(0, 3))
   console.log(i); // 0, 1, 2
